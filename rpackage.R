@@ -42,5 +42,5 @@ server <- function(input, output) {
                 "Number of Followers:", sum(data[data$Restaurant == input$restaurant, ]$Metadata)))
   })
 }
-
+print("hello")
 shinyApp(ui = ui, server = server)
